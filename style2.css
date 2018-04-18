@@ -1,0 +1,388 @@
+html{
+    background-color: white;
+}
+
+a{
+    color: black; 
+    text-decoration: none;
+    font-weight: 100;
+}
+
+a:hover{
+    font-weight: 500;
+}
+
+nav{
+    width: 150px; 
+    padding: 5px 2px 0px 20px;
+    position: fixed;
+    text-transform: uppercase;
+}
+
+nav h1{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 100;
+    color: black;
+    padding: 10px;
+    border-bottom: black solid .75px;
+    font-family: "Gill Sans", sans-serif;
+    
+}
+
+nav ul{
+    color: black;
+    list-style: none;
+    text-align: left;
+    margin-left: 5px;
+    padding:10px 0px 0px 20px;
+    font-family: "Avenir", sans-serif;
+}
+
+nav li{
+    padding-bottom: 15px; 
+    font-size: 12px;
+}
+
+.nested{
+    color: black;
+    list-style: none;
+    text-align: left;
+    margin-left: 5px;
+    font-family: "Avenir", sans-serif;
+    font-size: 10px;
+}
+
+.nested2 li{
+    text-align: left;
+    list-style-position: inside;
+    margin-left: 8px;
+    text-transform: none;
+    font-size: 12px;
+
+}
+
+strong{
+    font-weight: 600;
+}
+
+.terms h5{
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 500;
+    font-size: 20px;   
+    text-transform: capitalize;
+    padding-bottom: 2px;
+    width: 350px;
+    text-align: center;
+    margin: auto;
+}
+
+.terms p{
+    font-family: "Gill Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+}
+
+.terms section {
+    display: block;
+    width: 33.3333333%;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin: auto;
+    float: left;
+}
+
+.terms section:nth-child(3n + 1) {
+    clear: both;
+}
+
+.longdef p{
+    width:275px;
+}
+
+.terms {
+    width: calc(100% - 195px);
+    margin-left: 195px;
+}
+
+.terms img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+h4{
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    color: white;
+    text-transform: capitalize;
+    border-bottom: solid white 1px;
+    padding: 8px;
+    display: inline-block;
+}
+
+
+article{
+    width: 900px;
+    margin-right: 20px;
+}
+    
+.grid-blocks {
+    width: calc(100% - 200px);
+    margin-left: 200px;
+}
+
+.grid-block {
+    display: block;
+    width: 33.3333333%;
+    float: left;
+    text-align: center;
+    background-color: #E8E87D;
+    box-sizing: border-box;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.grid-block:hover{
+    background-color: black;
+}
+
+.pinkgrid-block {
+    display: block;
+    width: 33.3333333%;
+    float: left;
+    text-align: center;
+    background-color: #FFA5A1;
+    box-sizing: border-box;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.pinkgrid-block:hover{
+    background-color: black;
+
+}
+
+.lightbluegrid-block {
+    display: block;
+    width: 33.3333333%;
+    float: left;
+    text-align: center;
+    background-color: #ACDDDE;
+    box-sizing: border-box;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.lightbluegrid-block:hover{
+    background-color: black;
+
+}
+
+.darkbluegrid-block {
+    display: block;
+    width: 33.3333333%;
+    float: left;
+    text-align: center;
+    background-color: #336B69;
+    box-sizing: border-box;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.darkbluegrid-block:hover{
+    background-color: black;
+
+}
+
+h2{
+    font-family: "proxima nova", sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    background-color: #E8E87D;
+    padding: 50px;
+    width:975px;
+    margin: 0px 0px 0px 195px;  
+}
+
+.darkblue h2{
+    background-color:#336b69;
+}
+
+.lightblue h2{
+    background-color:#ACDDDE;
+}
+
+.pink h2{
+    background-color: #FFA5A1;
+}
+
+.black h2{
+    background-color: black;
+}
+
+
+h3{
+    font-family: "ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: #C6C16F;
+}
+   
+.darkblue h3{
+    color:#093a35;
+}
+    
+.lightblue h3{
+    color:#609393;
+}
+    
+.pink h3{
+    color: #DD7373;
+}
+
+p{
+    font-family: "Gill Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: black;
+    text-transform: none;
+}
+
+.main{
+    width: 980px;   
+    float: right;
+    margin-right: 20px;
+}
+
+.align-left{
+    float: left;
+    margin-right: 50px;
+    padding: 40px 30px;
+}
+
+.align-center{
+    padding: 10px;
+}
+
+
+h6{    
+    font-family: "proxima nova", sans-serif;
+    font-size: 43px;
+    text-align: center;
+    color: #C6C16F;
+    padding: 50px 50px 10px;
+    width:975px;
+    margin: 0px 0px 0px 195px;
+}
+    
+.text p{
+    font-family: "Gill Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: black;
+    text-transform: none;
+    padding: 5px;
+    width:800px;
+    margin: 0px 0px 0px 195px;
+    text-align: center;   
+}
+
+.text{
+    margin: 0px 0px 0px 110px;
+}
+
+.terms h5{
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 500;
+    font-size: 18px;   
+    text-transform: capitalize;
+    padding-bottom: 2px;
+    width: 350px;
+    text-align: center;
+    margin: auto;
+}
+
+.terms p{
+    font-family: "Gill Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    text-transform: none;
+}
+
+.terms2 {
+    width: calc(100% - 195px);
+    margin-left: 195px;
+}
+
+.terms2 h5{
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 500;
+    font-size: 18px;   
+    text-transform: capitalize;
+    padding-bottom: 2px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+}
+
+.terms2 p{
+    font-family: "Gill Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    text-transform: none;
+}
+
+
+.terms2 section {
+    display: block;
+    width: 25%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin: auto;
+    float: left;
+}
+
+.main a{
+    font-family: "ubuntu", sans-serif;
+    font-weight: 600;
+    color: black;
+    padding: 5px 10px;
+    border: solid black .5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: none;
+
+} 
+
+.main a:hover {
+    background-color: black; 
+    color: white;
+}
+
+.main section{
+    display: block;
+    width: 60%;
+    float: left;
+    text-align: left;
+    box-sizing: border-box;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+
+section .file{
+    border-top: solid black .5px;
+    padding: 10px;
+}
